@@ -1,0 +1,16 @@
+[package]
+name = "whirlpool"
+version = "0.1.0"
+edition = "2021"
+authors = ["Kevin C. Zimmerman <kevinczimmerman@gmail.com>"]
+description = "priority-based async executor"
+keywords = ["async", "non-blocking", "futures"]
+categories = ["asynchronous"]
+license = "MIT OR Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+futures = "0.3"
+parking_lot = "0.12"
+sorted-channel = "0.1"

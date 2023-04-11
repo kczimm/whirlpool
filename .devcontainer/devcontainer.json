@@ -1,0 +1,13 @@
+{
+    "name": "Rust",
+    "image": "rustlang/rust:nightly",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "rust-lang.rust-analyzer",
+                "tamasfe.even-better-toml",
+                "vadimcn.vscode-lldb"
+            ]
+        }
+    }
+}
